@@ -64,7 +64,7 @@ export function Header() {
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
                     <Link
-                      className="from-muted/50 to-muted flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-6 no-underline outline-hidden select-none focus:shadow-md"
+                      className="from-muted/50 to-muted flex h-full w-full flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none select-none focus:shadow-md"
                       href="/"
                     >
                       <div className="mt-4 mb-2 text-lg font-medium">
@@ -169,19 +169,19 @@ export function Header() {
               <ul className="grid w-[200px] gap-4">
                 <li>
                   <NavigationMenuLink asChild>
-                    <Link href="#" className="flex-row items-center gap-2">
+                    <Link href="#" className="flex flex-row items-center gap-2">
                       <CircleHelpIcon />
                       Backlog
                     </Link>
                   </NavigationMenuLink>
                   <NavigationMenuLink asChild>
-                    <Link href="#" className="flex-row items-center gap-2">
+                    <Link href="#" className="flex flex-row items-center gap-2">
                       <CircleIcon />
                       To Do
                     </Link>
                   </NavigationMenuLink>
                   <NavigationMenuLink asChild>
-                    <Link href="#" className="flex-row items-center gap-2">
+                    <Link href="#" className="flex flex-row items-center gap-2">
                       <CircleCheckIcon />
                       Done
                     </Link>
