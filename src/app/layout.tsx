@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
+import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Workout Tracker",
@@ -13,12 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <header>
-          <nav>
-            <a href="/">Home</a> | <a href="/workouts">Workouts</a>
-          </nav>
-        </header>
+      <body cz-shortcut-listen="true">
+        <Header />
         <main>{children}</main>
         <footer>
           <small>&copy; 2024 Workout Tracker</small>
